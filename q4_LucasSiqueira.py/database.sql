@@ -1,0 +1,15 @@
+CREATE DATABASE UsuariosConsoles;
+
+USE UsuariosConsoles;
+
+CREATE TABLE USUARIOS (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    console VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE JOGOS (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    data_lancamento DATE NOT NULL
+);
